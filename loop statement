@@ -1,0 +1,53 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+public class Solution1
+{
+    public static void main(String[] args){
+        Scanner in=new Scanner(System.in);
+        int N=in.nextInt();
+        for(int i=1;i<=10;i++)
+        {
+            int result=N*i;
+            System.out.printf("%d x %d = %d\n",N,i,result);
+        }
+    }
+}
+-------------------------------------------------------------------------------------------------------
+Congratulations!
+
+You have passed the sample test cases. Click the submit button to run your code against all the test cases.
+
+
+Sample Test case 0
+Input (stdin)
+
+Download
+2
+Your Output (stdout)
+2 x 1 = 2
+2 x 2 = 4
+2 x 3 = 6
+2 x 4 = 8
+2 x 5 = 10
+2 x 6 = 12
+2 x 7 = 14
+2 x 8 = 16
+2 x 9 = 18
+2 x 10 = 20
+Expected Output
+
+Download
+2 x 1 = 2
+2 x 2 = 4
+2 x 3 = 6
+2 x 4 = 8
+2 x 5 = 10
+2 x 6 = 12
+2 x 7 = 14
+2 x 8 = 16
+2 x 9 = 18
+2 x 10 = 20
+
